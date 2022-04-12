@@ -4,6 +4,7 @@
 #include <Windows.h>
 
 
+
 #pragma comment(lib,"xaudio2.lib")
 using namespace Microsoft::WRL;
 
@@ -18,7 +19,10 @@ void Audio::SoundLoadWave(const char* filename)
         return;
     }
 
+    if ()
+    {
 
+    }
     HRESULT result;
 
     //File open
